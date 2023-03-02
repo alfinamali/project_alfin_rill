@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           //
           // This works for code too, not just values: Most code changes can be
           // tested with just a hot reload.
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
           useMaterial3: true,
         ),
         home: Scaffold(
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             title: Text('project alfin'),
           ),
           body: Center(
-            child: Text('Hello world'),
+            child: Text('Hello'),
           ),
         )
     );
